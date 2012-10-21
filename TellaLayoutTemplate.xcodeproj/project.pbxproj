@@ -1,0 +1,325 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		040004551633C1330064AAA1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 040004541633C1330064AAA1 /* UIKit.framework */; };
+		040004571633C1330064AAA1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 040004561633C1330064AAA1 /* Foundation.framework */; };
+		040004591633C1330064AAA1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 040004581633C1330064AAA1 /* CoreGraphics.framework */; };
+		0400045F1633C1330064AAA1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0400045D1633C1330064AAA1 /* InfoPlist.strings */; };
+		040004611633C1330064AAA1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 040004601633C1330064AAA1 /* main.m */; };
+		040004651633C1330064AAA1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 040004641633C1330064AAA1 /* AppDelegate.m */; };
+		040004671633C1330064AAA1 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 040004661633C1330064AAA1 /* Default.png */; };
+		040004691633C1330064AAA1 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 040004681633C1330064AAA1 /* Default@2x.png */; };
+		0400046B1633C1330064AAA1 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0400046A1633C1330064AAA1 /* Default-568h@2x.png */; };
+		040004721633C15A0064AAA1 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 040004711633C15A0064AAA1 /* MainWindow.xib */; };
+		040004751633C4740064AAA1 /* ContentController.m in Sources */ = {isa = PBXBuildFile; fileRef = 040004741633C4740064AAA1 /* ContentController.m */; };
+		040004791633C5E60064AAA1 /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 040004771633C5E60064AAA1 /* MyViewController.m */; };
+		0400047A1633C5E60064AAA1 /* MyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 040004781633C5E60064AAA1 /* MyViewController.xib */; };
+		0400047E1633C6260064AAA1 /* ContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0400047C1633C6260064AAA1 /* ContentViewController.m */; };
+		0400047F1633C6260064AAA1 /* ContentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0400047D1633C6260064AAA1 /* ContentViewController.xib */; };
+		040004811633C6FC0064AAA1 /* content_iPhone.plist in Resources */ = {isa = PBXBuildFile; fileRef = 040004801633C6FC0064AAA1 /* content_iPhone.plist */; };
+		040004851633C7060064AAA1 /* small_one.png in Resources */ = {isa = PBXBuildFile; fileRef = 040004821633C7060064AAA1 /* small_one.png */; };
+		040004861633C7060064AAA1 /* small_two.png in Resources */ = {isa = PBXBuildFile; fileRef = 040004831633C7060064AAA1 /* small_two.png */; };
+		040004871633C7060064AAA1 /* small_three.png in Resources */ = {isa = PBXBuildFile; fileRef = 040004841633C7060064AAA1 /* small_three.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		040004501633C1330064AAA1 /* TellaLayoutTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TellaLayoutTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		040004541633C1330064AAA1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		040004561633C1330064AAA1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		040004581633C1330064AAA1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0400045C1633C1330064AAA1 /* TellaLayoutTemplate-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TellaLayoutTemplate-Info.plist"; sourceTree = "<group>"; };
+		0400045E1633C1330064AAA1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		040004601633C1330064AAA1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		040004621633C1330064AAA1 /* TellaLayoutTemplate-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TellaLayoutTemplate-Prefix.pch"; sourceTree = "<group>"; };
+		040004631633C1330064AAA1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		040004641633C1330064AAA1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		040004661633C1330064AAA1 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		040004681633C1330064AAA1 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		0400046A1633C1330064AAA1 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		040004711633C15A0064AAA1 /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		040004731633C4740064AAA1 /* ContentController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentController.h; sourceTree = "<group>"; };
+		040004741633C4740064AAA1 /* ContentController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentController.m; sourceTree = "<group>"; };
+		040004761633C5E60064AAA1 /* MyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
+		040004771633C5E60064AAA1 /* MyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
+		040004781633C5E60064AAA1 /* MyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyViewController.xib; sourceTree = "<group>"; };
+		0400047B1633C6260064AAA1 /* ContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentViewController.h; sourceTree = "<group>"; };
+		0400047C1633C6260064AAA1 /* ContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentViewController.m; sourceTree = "<group>"; };
+		0400047D1633C6260064AAA1 /* ContentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContentViewController.xib; sourceTree = "<group>"; };
+		040004801633C6FC0064AAA1 /* content_iPhone.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = content_iPhone.plist; sourceTree = "<group>"; };
+		040004821633C7060064AAA1 /* small_one.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = small_one.png; sourceTree = "<group>"; };
+		040004831633C7060064AAA1 /* small_two.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = small_two.png; sourceTree = "<group>"; };
+		040004841633C7060064AAA1 /* small_three.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = small_three.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0400044D1633C1330064AAA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				040004551633C1330064AAA1 /* UIKit.framework in Frameworks */,
+				040004571633C1330064AAA1 /* Foundation.framework in Frameworks */,
+				040004591633C1330064AAA1 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		040004451633C1330064AAA1 = {
+			isa = PBXGroup;
+			children = (
+				0400045A1633C1330064AAA1 /* TellaLayoutTemplate */,
+				040004531633C1330064AAA1 /* Frameworks */,
+				040004511633C1330064AAA1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		040004511633C1330064AAA1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				040004501633C1330064AAA1 /* TellaLayoutTemplate.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		040004531633C1330064AAA1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				040004541633C1330064AAA1 /* UIKit.framework */,
+				040004561633C1330064AAA1 /* Foundation.framework */,
+				040004581633C1330064AAA1 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0400045A1633C1330064AAA1 /* TellaLayoutTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				040004631633C1330064AAA1 /* AppDelegate.h */,
+				040004641633C1330064AAA1 /* AppDelegate.m */,
+				040004711633C15A0064AAA1 /* MainWindow.xib */,
+				040004731633C4740064AAA1 /* ContentController.h */,
+				040004741633C4740064AAA1 /* ContentController.m */,
+				0400047B1633C6260064AAA1 /* ContentViewController.h */,
+				0400047C1633C6260064AAA1 /* ContentViewController.m */,
+				0400047D1633C6260064AAA1 /* ContentViewController.xib */,
+				040004761633C5E60064AAA1 /* MyViewController.h */,
+				040004771633C5E60064AAA1 /* MyViewController.m */,
+				040004781633C5E60064AAA1 /* MyViewController.xib */,
+				0400045B1633C1330064AAA1 /* Supporting Files */,
+			);
+			path = TellaLayoutTemplate;
+			sourceTree = "<group>";
+		};
+		0400045B1633C1330064AAA1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				040004821633C7060064AAA1 /* small_one.png */,
+				040004831633C7060064AAA1 /* small_two.png */,
+				040004841633C7060064AAA1 /* small_three.png */,
+				040004801633C6FC0064AAA1 /* content_iPhone.plist */,
+				0400045C1633C1330064AAA1 /* TellaLayoutTemplate-Info.plist */,
+				0400045D1633C1330064AAA1 /* InfoPlist.strings */,
+				040004601633C1330064AAA1 /* main.m */,
+				040004621633C1330064AAA1 /* TellaLayoutTemplate-Prefix.pch */,
+				040004661633C1330064AAA1 /* Default.png */,
+				040004681633C1330064AAA1 /* Default@2x.png */,
+				0400046A1633C1330064AAA1 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0400044F1633C1330064AAA1 /* TellaLayoutTemplate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0400046E1633C1330064AAA1 /* Build configuration list for PBXNativeTarget "TellaLayoutTemplate" */;
+			buildPhases = (
+				0400044C1633C1330064AAA1 /* Sources */,
+				0400044D1633C1330064AAA1 /* Frameworks */,
+				0400044E1633C1330064AAA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TellaLayoutTemplate;
+			productName = TellaLayoutTemplate;
+			productReference = 040004501633C1330064AAA1 /* TellaLayoutTemplate.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		040004471633C1330064AAA1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "승원 김";
+			};
+			buildConfigurationList = 0400044A1633C1330064AAA1 /* Build configuration list for PBXProject "TellaLayoutTemplate" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 040004451633C1330064AAA1;
+			productRefGroup = 040004511633C1330064AAA1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0400044F1633C1330064AAA1 /* TellaLayoutTemplate */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0400044E1633C1330064AAA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0400045F1633C1330064AAA1 /* InfoPlist.strings in Resources */,
+				040004671633C1330064AAA1 /* Default.png in Resources */,
+				040004691633C1330064AAA1 /* Default@2x.png in Resources */,
+				0400046B1633C1330064AAA1 /* Default-568h@2x.png in Resources */,
+				040004721633C15A0064AAA1 /* MainWindow.xib in Resources */,
+				0400047A1633C5E60064AAA1 /* MyViewController.xib in Resources */,
+				0400047F1633C6260064AAA1 /* ContentViewController.xib in Resources */,
+				040004811633C6FC0064AAA1 /* content_iPhone.plist in Resources */,
+				040004851633C7060064AAA1 /* small_one.png in Resources */,
+				040004861633C7060064AAA1 /* small_two.png in Resources */,
+				040004871633C7060064AAA1 /* small_three.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0400044C1633C1330064AAA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				040004611633C1330064AAA1 /* main.m in Sources */,
+				040004651633C1330064AAA1 /* AppDelegate.m in Sources */,
+				040004751633C4740064AAA1 /* ContentController.m in Sources */,
+				040004791633C5E60064AAA1 /* MyViewController.m in Sources */,
+				0400047E1633C6260064AAA1 /* ContentViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0400045D1633C1330064AAA1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0400045E1633C1330064AAA1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0400046C1633C1330064AAA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0400046D1633C1330064AAA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0400046F1633C1330064AAA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TellaLayoutTemplate/TellaLayoutTemplate-Prefix.pch";
+				INFOPLIST_FILE = "TellaLayoutTemplate/TellaLayoutTemplate-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		040004701633C1330064AAA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TellaLayoutTemplate/TellaLayoutTemplate-Prefix.pch";
+				INFOPLIST_FILE = "TellaLayoutTemplate/TellaLayoutTemplate-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0400044A1633C1330064AAA1 /* Build configuration list for PBXProject "TellaLayoutTemplate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0400046C1633C1330064AAA1 /* Debug */,
+				0400046D1633C1330064AAA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0400046E1633C1330064AAA1 /* Build configuration list for PBXNativeTarget "TellaLayoutTemplate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0400046F1633C1330064AAA1 /* Debug */,
+				040004701633C1330064AAA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 040004471633C1330064AAA1 /* Project object */;
+}
